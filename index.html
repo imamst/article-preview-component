@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <title>Frontend Mentor | Article Preview Component</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article class="card article">
+        <div class="article__image"></div>
+        <div class="article__content">
+            <h3 class="article__title">
+                Shift the overall look and feel by  adding these wonderful touches to furniture in your home
+            </h3>
+            <p class="article__description">
+                Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete.
+            </p>
+            <div class="article__footer">
+                <div class="article__meta">
+                    <img src="images/avatar-michelle.jpg" alt="Michelle" class="article__author-img">
+                    <p class="article__author">Michelle Appelton</p>
+                    <p class="article__date">28 Juni 2020</p>
+                </div>
+                <div class="article__share-wrapper">
+                    <button id="btnShare" class="article__btn-share">
+                        <i class="share-icon"></i>
+                    </button>
+                    <div id="sectionShareDesktop" class="article__share-section-desktop">
+                        <span class="share-section-title">SHARE</span>
+                        <div class="share-icon-wrapper">
+                            <a href="#">
+                                <i class="facebook-icon"></i>
+                            </a>
+                            <a href="#">
+                                <i class="twitter-icon"></i>
+                            </a>
+                            <a href="#">
+                                <i class="pinterest-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="sectionShareMobile" class="article__share-section-mobile">
+            <span class="share-section-title">SHARE</span>
+            <div class="share-icon-wrapper">
+                <a href="#">
+                    <i class="facebook-icon"></i>
+                </a>
+                <a href="#">
+                    <i class="twitter-icon"></i>
+                </a>
+                <a href="#">
+                    <i class="pinterest-icon"></i>
+                </a>
+            </div>
+        </section>
+    </article>
+
+    <script src="script.js"></script>
+</body>
+</html>
